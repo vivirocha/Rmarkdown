@@ -1,0 +1,71 @@
+---
+title: "<h3>R Markdown - Fundamentos em R (textos) </h3>"
+author: "Viviane Rocha"
+date: "2/4/2022"
+output: html_document
+---
+<br>
+
+<center> <h1> <p style="color: midnightblue"> **R Markdown no R** </p> </h1> </center>
+<br>
+
+<h3> <p style="color: midnightblue"> **Trabalhando com textos** </p>
+##### Para criar um novo arquivo no formato RMarkdown, siga o passo a passo abaixo:  
+##### Clique em File **->** New file **->** R Markdown  
+##### Uma página se abrirá contendo um bloco para cabeçalho e um bloco para desenvolvimento do seu projeto, neste bloco 
+##### você pode inserir códigos, textos, imagens, gráficos, tabelas...  
+
+<br>
+
+<h3> <p style="color: midnightblue"> **Tamanho do texto** </p>
+##### No R Markdown usamos o símbolo # para definir o tamanho do texto. Os tamanhos variam de 1# a 6# (lembrando que 
+##### não  é necessário adicionar o número, apenas a quantidade de #). Antes de iniciar o seu texto, você coloca a 
+##### quantidade  de # que quer, dá um espaço e escreve (exemplo: # Título).
+
+##### *Obs.: Podemos mesclar códigos de RMarkdown com html.*
+
+<br>
+
+# Título tamanho 1;
+## Título tamanho 2;
+### Título tamanho 3;
+#### Título tamanho 4;
+##### Título tamanho 5;
+###### Título tamanho 6.
+
+<br>
+
+<h3> <p style="color: midnightblue"> **Destaque do texto** </p>
+
+##### Para definirmos quais textos e/ou palavras estarão em **negrito** e *itálico*, usamos o símbolo * ou _, sendo: 
+
+##### ° 1 asterísco no início e no fim *exemplo* ou um underline no início e no fim _exemplo_ para definir o que será em *itálico*;  
+##### ° 2 asteríscos no início e no fim **exemplo** ou dois underlines no início e no fim __exemplo__ para definir o que será em **negrito**;  
+##### ° Também podemos misturar os símbolos, deixando a palavra em negrito e em itálico ao mesmo tempo:  
+##### ° 2 asteríscos e 1 underline no início e no fim **_exemplo_** ou dois underlines e um asterísco no início e no fim __*exemplo*__.
+
+<br>
+
+##### Para definirmos quais textos e/ou palavras serão grafadas ou elevada ao quadrado, usamos o símbolo ^^ e ~~, sendo: 
+##### ° palavra elevada ao quadrado^2^
+##### ° palavra elevada ao cubo^3^
+##### ° Você pode elevar a quanto você quiser, como exemplo: dez^10^
+##### ° ~~palavra tachada~~
+
+<br>
+
+<h3> <p style="color: midnightblue"> **Inserindo link** </p>
+##### Para inserirmos um link no texto, basta usarmos os símbolo colchetes para escrever o nome que vai no link e parênteses na url,
+##### como exemplo: [Meu Linkedln](https://www.linkedin.com/in/vlrocha/) 
+
+<br>
+
+##### Fácil, né? Fique de olho no próximo artigo para continuar os aprendizados em R Markdown.
+
+<br>
+
+##### Dê uma olhadinha em como ficou o nosso documento na web, [clique aqui](https://rpubs.com/vivirocha/rmarkdown_texto)
+
+<br>
+
+<h3> Até logo!   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
